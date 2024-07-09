@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section1 {
+  background-image: url(./images/Banner\ Image.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  color: white;
+  height: 517px;
+  width: 1137px;
+  margin: 6vh 15vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 30, 30, 0.473);
+  background-blend-mode: overlay;
+}
+.section1 > h2 {
+  color: rgb(255 255 255 / 95%);
+  font-family: Merriweather;
+  font-size: 27px;
+  font-weight: 300;
+}
+.section1 > h1 {
+  color: rgb(255 255 255);
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin: 1% 22%;
+  padding: 10px 10px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: auto;
+  gap: 4vh;
+  margin-top: 4vh;
+}
+.lekha h1 {
+  color: rgb(255, 0, 0);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 107px;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.lekha p {
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+}
+.lekha h3 {
+  color: rgb(7, 2, 17);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.section2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border: 2px dashed rgba(128, 128, 128, 0.329);
+}
+
+.section3 {
+  background-image: url(./images/Vectorrr.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  color: white;
+  height: 517px;
+  width: 1137px;
+  margin: 6vh 15vh;
+  display: flex;
+  text-align: center;
+  background-size: cover;
+  align-items: center;
+  background-color: rgba(30, 30, 30, 0.76);
+  background-blend-mode: overlay;
+  padding: 10px;
+}
+.lekha2 {
+  width: 71vw;
+  margin: 0vw 0vw 5vw 9vw;
+}
+
+.lekha2 h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-bottom: 1vh;
+}
+.lekha2 p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.lekha2 h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 7vh;
+}
+
+.sec3-img img {
+  width: 23vw;
+  height: 60vh;
+  margin-right: 5vw;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1137px;
+  height: 400px;
+  border-radius: 16px;
+  background: linear-gradient(180deg,rgba(255, 0, 0, 0.144),rgba(255, 0, 0, 0) 100%);
+}
+
+.sec3 span {
+    font-family: sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: rgb(255, 0, 0);
+}
+.sec3 p{
+    font-family: sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.sec3 button {
+    position: relative;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3vh auto;
+}
